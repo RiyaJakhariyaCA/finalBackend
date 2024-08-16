@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="CreateBook">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 m-auto">
+            <br /><a class="btn btn-info float-left" href="/">Show BooK List</a>
+          </div>
+          <div class="col-md-8 m-auto">
+            <h1 class="display-4 text-center">Add Book</h1>
+            <p class="lead text-center">Create new book</p>
+            <form novalidate="">
+              <div class="form-group">
+                <input
+                  type="text"
+                  placeholder="Title of the Book"
+                  name="title"
+                  class="form-control"
+                  value=""
+                  spellcheck="false"
+                  data-ms-editor="true"
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="text"
+                  placeholder="Author"
+                  name="author"
+                  class="form-control"
+                  value=""
+                  spellcheck="false"
+                  data-ms-editor="true"
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="text"
+                  placeholder="Describe this book"
+                  name="description"
+                  class="form-control"
+                  value=""
+                  spellcheck="false"
+                  data-ms-editor="true"
+                />
+              </div>
+              <input type="submit" class="btn btn-info btn-block mt-4" />
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
